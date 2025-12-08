@@ -1,0 +1,16 @@
+Subject: Planning next sprint
+From: tech.lead@example.com
+Date: 2025-12-03 11:00
+
+Hi,
+
+Next steps for the upcoming sprint:
+
+- Create initial estimates for the new feature requests.
+- Review the open bugs and prioritize the top 10 issues.
+- Prepare a short summary for the stakeholder meeting next week.
+
+None of this is due today, but it would be great to have a draft by early next week.
+
+Regards,
+Tech Lead

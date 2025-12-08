@@ -1,0 +1,13 @@
+Subject: Urgent: Invoice follow-up
+From: finance@example.com
+Date: 2025-12-04 14:32
+
+Hello,
+
+This is a reminder that the invoice for November is still pending.
+Can you please follow up with the client on the payment status ASAP?
+
+Action required: Send a follow-up email to the ACME finance contact before Friday.
+
+Best,
+Finance Team

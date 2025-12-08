@@ -1,0 +1,13 @@
+Subject: Weekly client updates
+From: project.manager@example.com
+Date: 2025-12-05 09:15
+
+Hi team,
+
+Please prepare the weekly status report for the ACME client by tomorrow noon.
+We need to include progress on all open tickets and any risks for the next sprint.
+
+Also, kindly update the shared roadmap document before the end of day.
+
+Thanks,
+Project Manager

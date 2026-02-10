@@ -1,5 +1,5 @@
 
-# 🤖 AI Agent Workflow System (Fully Local)
+# AI Agent Workflow System (Fully Local)
 
 A fully local AI-powered workflow automation system that reads emails, extracts tasks, prioritizes them, and generates a daily work schedule—**without any API keys, internet, or heavy AI frameworks**.
 
@@ -14,14 +14,14 @@ Perfect for showcasing **AI engineering, NLP, automation pipelines, and workflow
 
 ---
 
-## 🚀 Features
+## Features
 
-### 📥 Email Processing
+### Email Processing
 - Load and parse plain-text email files
 - Extract headers (Subject, From, Date)
 - Analyze body content for task-relevant lines
 
-### 🤖 AI Task Extraction
+### AI Task Extraction
 Uses cue-based semantic analysis to identify task sentences:
 - “Please…”
 - “Can you…”
@@ -35,26 +35,26 @@ Automatically extracts:
 - Due date (if mentioned)
 - Email source link
 
-### 🔥 Priority Engine
+# Priority Engine
 Each task receives a priority score (1–5) based on:
 - Urgency cues (e.g., "ASAP", "urgent")
 - Estimated due date proximity
 - Email importance patterns  
 
-### 🗓 Smart Scheduler
+# Smart Scheduler
 Creates a daily plan based on:
 - Priority
 - Due dates
 - Task duration estimates
 - Workday boundaries (default 9am–5pm)
 
-### 🔍 Semantic Search
+# Semantic Search
 Search extracted tasks by meaning, not keywords.  
 Uses:
 - **FastEmbed** for dense embeddings  
 - **FAISS** for fast vector similarity
 
-### 🖥 Streamlit UI
+# Streamlit UI
 Four interactive tabs:
 - **Inbox**
 - **Extracted Tasks**
@@ -63,7 +63,7 @@ Four interactive tabs:
 
 ---
 
-## 🧰 Tech Stack
+# Tech Stack
 
 | Component | Technology |
 |----------|-------------|
@@ -76,7 +76,7 @@ Four interactive tabs:
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 
 ```
 ai_agent_workflow/
@@ -101,7 +101,7 @@ ai_agent_workflow/
 
 ---
 
-## 🛠 Installation
+# Installation
 
 ### 1. Clone the repository
 ```bash
@@ -122,7 +122,7 @@ pip install "numpy<2.0.0" streamlit faiss-cpu fastembed python-dateutil pydantic
 
 ---
 
-## ▶️ Running the App
+# Running the App
 
 ```bash
 python -m streamlit run app.py
@@ -132,7 +132,7 @@ Then open the URL shown in the terminal (usually http://localhost:8501).
 
 ---
 
-## 📧 Adding More Emails
+# Adding More Emails
 
 Add plain `.txt` files to the `emails/` folder with patterns like:
 
@@ -150,25 +150,14 @@ Tasks might appear as:
 
 The system will automatically extract tasks during the next run.
 
----
 
-## 📈 Future Enhancements
 
-- 🔄 Memory: store past schedules & metrics  
-- 🧠 Mini-Llama local NLP integration  
-- 📨 Gmail API connector (optional)  
-- 📊 Dashboard analytics + charts  
-- 🧩 Replace heuristics with an ML classifier  
-- 🗄 Persist tasks to SQLite  
-
----
-
-## 🏷 License
+# License
 MIT License
 
 ---
 
-## ✨ Author
+# Author
 **Nethmi Fonseka**  
 AI / Automation / Workflow Developer  
 GitHub: https://github.com/Nethmifonseka97

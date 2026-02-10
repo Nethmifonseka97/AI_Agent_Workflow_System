@@ -1,5 +1,5 @@
 
-# AI Agent Workflow System (Fully Local)
+# AI Agent Workflow System 
 
 A fully local AI-powered workflow automation system that reads emails, extracts tasks, prioritizes them, and generates a daily work schedule—**without any API keys, internet, or heavy AI frameworks**.
 
